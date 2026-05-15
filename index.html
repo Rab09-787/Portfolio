@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fojlay Rabbi | Graphic Designer Portfolio</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #fff;
+      color: #222;
+      line-height: 1.6;
+      display: flex;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .container {
+      display: flex;
+      max-width: 960px;
+      width: 100%;
+      box-shadow: 0 0 25px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    /* Left Sidebar */
+    .sidebar {
+      background-color: #f8f8f8;
+      width: 320px;
+      padding: 1.8rem 2rem;
+      box-sizing: border-box;
+    }
+    .profile-pic {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto 1.5rem;
+      display: block;
+      border: 5px solid #ddd;
+    }
+    h2, h3 {
+      margin: 1rem 0 0.6rem;
+      font-weight: 700;
+      color: #111;
+    }
+    .contact-info, .education, .skills {
+      margin-top: 1rem;
+    }
+    .contact-info p, 
+    .education p, 
+    .skills ul {
+      font-weight: 400;
+      font-size: 0.95rem;
+      margin: 0.3rem 0;
+      color: #333;
+    }
+    .contact-info p svg {
+      vertical-align: middle;
+      margin-right: 0.5rem;
+      fill: #555;
+      width: 16px;
+      height: 16px;
+    }
+    .skills ul {
+      padding-left: 1.2rem;
+      list-style-type: disc;
+      margin-top: 0;
+    }
+    .skills ul li {
+      margin-bottom: 0.4rem;
+    }
+    /* Main Content */
+    .main-content {
+      flex-grow: 1;
+      background: #fff;
+      padding: 2rem 2.5rem;
+      box-sizing: border-box;
+    }
+    .main-content h1 {
+      margin: 0 0 0.1rem 0;
+      font-size: 2.5rem;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      color: #111;
+    }
+    .main-content h2 {
+      margin-top: 2rem;
+      border-bottom: 3px solid #111;
+      padding-bottom: 0.25rem;
+      font-size: 1.6rem;
+      font-weight: 700;
+    }
+    .main-content h3 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin: 1.2rem 0 0.4rem 0;
+      color: #222;
+    }
+    .about-me p,
+    .work-experience p,
+    .work-experience ul {
+      font-size: 1rem;
+      color: #444;
+      margin-bottom: 1rem;
+    }
+    .work-experience ul {
+      padding-left: 1.3rem;
+      list-style-type: disc;
+      margin-top: 0.3rem;
+    }
+    /* Link styling for clickable items */
+    a.button-link {
+      display: inline-block;
+      margin-top: 1rem;
+      background-color: #222;
+      color: white;
+      padding: 0.7rem 1.4rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+    a.button-link:hover {
+      background-color: #444;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <!-- Replace with your actual photo URL -->
+      <img class="profile-pic" src="https://i.pravatar.cc/160?img=3" alt="Fojlay Rabbi Profile Picture" />
+
+      <section class="contact-info">
+        <h3>Contact Me</h3>
+        <p><svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21 11.21 11.21 0 003.6.57 1 1 0 011 1V20a1 1 0 01-1 1A18 18 0 013 5a1 1 0 011-1h3.5a1 1 0 011 1 11.21 11.21 0 00.57 3.6 1 1 0 01-.21 1.11z"/></svg> +88 01647863980</p>
+        <p><svg viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4a4 4 0 000 8zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> mdfojlayrabbishagor@gmail.com</p>
+        <p><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"/></svg> 32 Toronga Airport Road, Sylhet</p>
+      </section>
+
+      <section class="education">
+        <h3>Education</h3>
+        <p><strong>Mohammedpur Kendriya College</strong><br />BSc in Mathematics (Ongoing)</p>
+        <p><strong>Graphic Art Institute</strong><br />Graphic Design (2022 – 2023)</p>
+        <p><strong>Biswanath Govt. College</strong><br />HSc (Science) (2018 – 2019)</p>
+      </section>
+
+      <section class="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li>Management</li>
+          <li>Graphic Design</li>
+          <li>Photography</li>
+          <li>Negotiation</li>
+          <li>Critical Thinking</li>
+          <li>Communication Skills</li>
+          <li>Process Management</li>
+          <li>WordPress Site Support & Maintenance</li>
+          <li>Social Media Management</li>
+        </ul>
+      </section>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <h1>FOJLAY RABBI</h1>
+      <p style="font-size: 1.2rem; margin-top: -0.4rem; font-weight: 400; letter-spacing: 1.2px;">Graphic Designer</p>
+
+      <section class="about-me">
+        <h2>About Me</h2>
+        <p>
+          Creative and results-driven Graphic Designer and Photographer with a strong passion for visual storytelling and innovative design. Known for a collaborative and friendly approach, with the ability to work effectively under pressure and deliver high-quality outputs within deadlines. Currently serving as Manager at ECO POWER BUSINESS LTD, where I lead a cross-functional team to drive project success and operational efficiency. Skilled in team leadership, design strategy, and creative problem-solving with a proven ability to balance aesthetics and function in every project. Dedicated to continuous growth and bringing creative visions to life with professionalism and impact.
+        </p>
+      </section>
+
+      <section class="work-experience">
+        <h2>Work Experience</h2>
+
+        <h3>Eco Power Business LTD (UK) <span style="float:right; font-weight:600;">2023</span></h3>
+        <ul>
+          <li>Manager</li>
+          <li>Working with the wider skilled team.</li>
+          <li>Manage Photo Co-ordinating, Lead Generation and the Digital Marketing team.</li>
+        </ul>
+
+        <h3>Event Solution Bangladesh <span style="float:right; font-weight:600;">2024</span></h3>
+        <ul>
+          <li>Designer</li>
+          <li>Mainly work with design t-shirts.</li>
+          <li>Social media post design.</li>
+        </ul>
+
+        <h3>Artisan Digital Print <span style="float:right; font-weight:600;">2021 - 2022</span></h3>
+        <ul>
+          <li>Designer</li>
+          <li>Working with an operator team.</li>
+          <li>Manage client’s requirements.</li>
+          <li>Production handling.</li>
+          <li>Supply on demand.</li>
+        </ul>
+
+        <h3>Abhirup Advertising Agency <span style="float:right; font-weight:600;">2021 - 2022</span></h3>
+        <ul>
+          <li>Manager</li>
+          <li>Dealt with clients.</li>
+          <li>Manage all financial resources.</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+</body>
+</html>
